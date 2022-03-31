@@ -1,0 +1,143 @@
+ <html>
+<head>
+<title>AGomes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: silver;
+  padding: 0px;
+  text-align: left;
+}
+
+#nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-right {
+  float: right;
+}
+
+#nav a: link {
+  background-color: #ddd;
+  color: black;
+}
+
+#nav a.active {
+  background-color: orange;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body style="background-color:#A9F5D0;">
+
+<div class="header">
+<center>
+</br>
+<a href="Home.html"><img src="my logo.png" width="100" height="100"></a>
+<div style="margin:0px auto;">
+</div>
+
+<div style="width:1200px;height:150px;margin-left:0px;">
+<div style="text-align:center;font-size:70px;font-family:arial black;text-shadow:5px 5px orange;">
+<u>Gallery</u>
+</div>
+</div>
+</div>
+
+
+<div id="nav" h1 align="center">
+  <a href="Home.html">Home</a>
+  <a href="CV.html">CV</a>
+  <a href="Unit 1.html">Online World</a>
+  <a href="Unit 2.html">Technology Systems</a>
+  <a href="Unit 9.html">Spreadsheet Development</a>
+  <a href="Unit 10.html">Database Development</a>
+  <a href="About me.html">About Me</a>
+  <a class="active" href="Gallery.html">Gallery</a>
+<div class="nav-right">
+  <a href="Contact Me.html">Contact Me</a>
+</div>
+</div>
+
+
+<tr>
+<td align="center">
+<font face="arial" size="4" color="#FFFFFF">
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+<table width="875 align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center">
+<h1>
+<table border="2" align="center">
+<tr>
+<td><img src="ncfe.jpg"></td>
+</tr>
+</table>
+
+<table border="1" align="center">
+<tr>
+<td><img src="College.jpg" Width="275" height="183" border="2px"><b><i><center>College</center></td>
+<td><img src="IT Room.jpg" Width="275" height="183" border="2px"><b><i><center>IT Room</center></td>
+<td><img src="Library.jpg" Width="275" height="183" border="2px"><b><i><center>Library</center></td>
+<td><img src="Student.jpg" Width="275" height="183" border="2px"><b><i><center>Student Room</center></td>
+<td><img src="Basketball.jpg" Width="275" height="183" border="2px"><b><i><center>Basketball</center></td>
+</tr>
+</table>
+
+<table border="1" align="center">
+<tr>
+<td><img src="Gym.jpg" Width="275" height="183" border="2px"><b><i><center>Gym</center></td>
+<td><img src="Football.jpg" Width="275" height="183" border="2px"><b><i><center>Football</center></td>
+</tr>
+</table>
+<br>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

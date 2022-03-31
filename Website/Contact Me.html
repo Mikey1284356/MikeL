@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>AGomes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: lightgray;
+  padding: 0px;
+  text-align: left;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: lightgreen;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: lightgreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+
+<div class="header">
+<center>
+</br>
+<a href="Home.html"><img src="my logo.png" width="100" height="100"></a>
+<div style="margin:0px auto;">
+</div>
+
+<div style="width:850px;height:150px;margin-left:0px;">
+<div style="text-align:center;font-size:70px;font-family:arial black;text-shadow:5px 5px lightgreen;">
+<u>Contact Me</u>
+</div>
+</div>
+</div>
+
+<div id="topnav" h1 align="center">
+  <a href="Home.html">Home</a>
+  <a href="CV.html">CV</a>
+  <a href="Unit 1.html">Online World</a>
+  <a href="Unit 2.html">Spreadsheet Development</a>
+  <a href="Unit 9.html">Technology Systems</a>
+  <a href="Unit 10.html">Database Development</a>
+  <a href="About me.html">About Me</a>
+  <a href="Gallery.html">Gallery</a>
+<div class="topnav-right">
+  <a class="active" href="Contact Me.html">Contact Me</a>
+</div>
+</div>
+</br>
+</h1>
+
+<div class="container">
+<div style="text-align:center">
+<img src="contact.png" width="100" height="100">
+<h2>Contact Me</h2>
+<p>Swing by for a cup of coffee, or leave me a message:</p>
+</center>
+</div>
+
+<div class="row">
+<div class="column">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.532009157496!2d0.007005915747888021!3d51.54014297964054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a636c3872d0f%3A0x830cf1c69c4310b9!2sNewham%20College%20-%20Stratford%20Campus!5e0!3m2!1sen!2suk!4v1586541408828!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<div class="column">
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label For="Email"> Email</label>
+<input id="email" Name="Email" Placeholder="example@domain.com" required tabindes="2" type="text">
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Your Message.." style="height:170px"></textarea>
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<p>East Ham, London
+<p>United Kingdom
+<p>+4401234567890
+<p>25202411@student.newham.ac.uk
+
+
+<hr>
+
+</body>
+</html>

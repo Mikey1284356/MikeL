@@ -1,0 +1,138 @@
+ <html>
+<head>
+<title>AGomes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: lightgray;
+  padding: 0px;
+  text-align: left;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: darkred;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+
+<div class="header">
+<center>
+</br>
+<a href="Home.html"><img src="my logo.png" width="100" height="100"></a>
+<div style="margin:0px auto;">
+</div>
+
+<div style="width:1200px;height:150px;margin-left:0px;">
+<div style="text-align:center;font-size:70px;font-family:arial black;text-shadow:5px 5px darkred;">
+<u>Unit 10-Database Development</u>
+</div>
+</div>
+</div>
+
+
+<div id="topnav" h1 align="center">
+  <a href="Home.html">Home</a>
+  <a href="CV.html">CV</a>
+  <a href="Unit 1.html">Online World</a>
+  <a href="Unit 2.html">Technology Systems</a>
+  <a href="Unit 9.html">Spreadsheet Development</a>
+  <a class="active" href="Unit 10.html">Database Development</a>
+  <a href="About me.html">About Me</a>
+  <a href="Gallery.html">Gallery</a>
+<div class="topnav-right">
+  <a href="Contact Me.html">Contact Me</a>
+</div>
+</div>
+</br>
+</h1>
+
+<align="left">
+<font face="Time new roman" size="8" color="black">
+<table border="1" align="center">
+<tr>
+<td><img src="Database.jpg" width="350 height="350" align="left">
+
+<h4>This unit helps me to handle large amount of data and multiple concurrent users. it also helps me to get quick solutions to database queries, therefore making data access faster and more accurate. Analysing data in a variety ways that allows me to store and process information.
+It also helps me to design the form that it was given to us as an assignments as well as creating a report. This unit allows me to understand how database works and helps the users to do their works quicker.
+Database is used by an organization as a method of processing, storing and managing information. To easily access the data as well as to organize collection of data.
+</h4>
+
+<td>Learning aims in this unit you will:
+<ul>
+<li> Understand the uses of database and the features available in database software packages</li>
+<li> Handle large amount of data and multiple concurrent users</li>
+<li> Design a form</li>
+<li> Store a data</li>
+<li> Create a report and queries</li>
+</ul>
+</td>
+
+<td><a href="E:\Backup Files\UNIT 3\Website"><img src="folder.png" width="100 height="100"><h4>Please click here to see my work</h4></a>
+
+</tr>
+</table>
+</b>
+</font>
+</center>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("topnav");
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
